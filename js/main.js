@@ -17,7 +17,8 @@
 $(document).ready(function(){
     var modal=$(".modal"),
         modalBtn=$("[data-toggle=modal]"),
-        closeBtn=$(".modal__close");
+        closeBtn=$(".modal__close"),
+        scrollBtn = $(".scrollBtn");
 
     modalBtn.on("click" ,function(){
         modal.addClass("modal--visible");
@@ -28,6 +29,9 @@ $(document).ready(function(){
     modal.on("click",function(){
         modal.removeClass("modal--visible");
     });
+    scrollBtn.on("click",function(){
+        $("html, body").animate({ scrollTop: "0" });
+    })
 
 
 });
