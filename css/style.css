@@ -744,6 +744,18 @@ img {
 .footer {
   background: #131313 url("../img/footer-bg.jpg") no-repeat center/cover;
   padding-top: 3rem; }
+  .footer__main-text {
+    text-align: center;
+    color: #e3b873;
+    font-family: Yeseva One;
+    font-size: 1.43rem;
+    line-height: 2rem;
+    text-transform: uppercase; }
+  .footer__icons {
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 1.9rem;
+    display: flex; }
   .footer__wrap {
     background-color: #181818;
     max-width: 63.07rem;
@@ -784,6 +796,8 @@ img {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__map {
+    margin-bottom: 4rem; }
 
 .modal {
   opacity: 0;
